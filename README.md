@@ -1,2 +1,2 @@
-# opera-oes_matematicas
+# operações matematicas
 operações matemáticas básicas em Java
