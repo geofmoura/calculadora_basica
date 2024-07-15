@@ -1,2 +1,2 @@
 # operações matematicas
-Calculadora básica utilizando Java.
+Calculadora básica utilizando C
