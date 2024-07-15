@@ -1,2 +1,2 @@
 # operações matematicas
-Um tipo de calculadora básica utilizando Java.
+Calculadora básica utilizando Java.
