@@ -1,2 +1,2 @@
-# operações matematicas
-Calculadora básica utilizando C
+# Calculadora Básica
+Calculadora básica utilizando C e implementando estilização.
