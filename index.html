@@ -8,15 +8,24 @@
 </head>
 <body>
     
-    <div class="calculator"> <!-- container principal da calculadora -->
-        <input type="text" class="calculator-screen" disabled> <!-- tela da calculadora (somente leitura) -->
-        <div class="calculator-keys"> <!-- container para as teclas da calculadora -->
-            <button class="operator" value="+">+</button> <!-- botões dos operadores -->
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" class="calculator-screen" disabled>
+        <div class="calculator-keys">
+            <button class="operator" value="+">+</button>
             <button class="operator" value="-">-</button>
             <button class="operator" value="*">&times;</button>
             <button class="operator" value="/">&divide;</button>
 
-            <button value="7">7</button> <!-- botões dos números -->
+            <button value="7">7</button>
             <button value="8">8</button>
             <button value="9">9</button>
 
@@ -29,12 +38,16 @@
             <button value="3">3</button>
 
             <button value="0">0</button>
-            <button value=".">.</button> <!-- botão do ponto decimal -->
-            <button class="all-clear" value="all-clear">AC</button> <!-- botão de limpar tudo -->
+            <button value=".">.</button>
+            <button class="all-clear" value="all-clear">AC</button>
 
-            <button class="equal-sign operator" value="=">=</button> <!-- botão de igual -->
+            <button class="equal-sign operator" value="=">=</button>
         </div>
     </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
     <script src="/src/script.js"></script>
 
 
