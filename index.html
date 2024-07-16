@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+    
+    <div class="calculator"> <!-- container principal da calculadora -->
+        <input type="text" class="calculator-screen" disabled> <!-- tela da calculadora (somente leitura) -->
+        <div class="calculator-keys"> <!-- container para as teclas da calculadora -->
+            <button class="operator" value="+">+</button> <!-- botões dos operadores -->
+            <button class="operator" value="-">-</button>
+            <button class="operator" value="*">&times;</button>
+            <button class="operator" value="/">&divide;</button>
+
+            <button value="7">7</button> <!-- botões dos números -->
+            <button value="8">8</button>
+            <button value="9">9</button>
+
+            <button value="4">4</button>
+            <button value="5">5</button>
+            <button value="6">6</button>
+
+            <button value="1">1</button>
+            <button value="2">2</button>
+            <button value="3">3</button>
+
+            <button value="0">0</button>
+            <button value=".">.</button> <!-- botão do ponto decimal -->
+            <button class="all-clear" value="all-clear">AC</button> <!-- botão de limpar tudo -->
+
+            <button class="equal-sign operator" value="=">=</button> <!-- botão de igual -->
+        </div>
+    </div>
+    <script src="/src/script.js"></script>
+
+
+</body>
+</html>
