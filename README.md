@@ -11,6 +11,7 @@
 ### Botão "AC" para limpar todos os valores e resetar a calculadora.
 
 # Desenvolvimento
+
 ## HTML
 ### A estrutura HTML define o layout básico da calculadora, incluindo a tela e os botões.
 
