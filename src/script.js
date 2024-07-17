@@ -1,8 +1,8 @@
 const calculator = {
-    displayValue: '0',
-    firstOperand: null,
-    waitingForSecondOperand: false,
-    operator: null,
+    displayValue: '0', // valor exibido na tela
+    firstOperand: null, // primeiro operando
+    waitingForSecondOperand: false, // indicador de espera pelo segundo operando
+    operator: null, // operador
 };
 
 function inputDigit(digit) {
